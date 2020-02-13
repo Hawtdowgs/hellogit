@@ -4,11 +4,12 @@ public class HelloGit {
 
 	public static void main(String[] args) {
 		
-		String[] names = { "bilbo", "Frodo", "Aragorn", "Legolas", "Gandalf" };
+		String[] names = { "bilbo", "Frodo", "Aragorn", "Legolas", "Gandalf", "gary", "lary"};
 		
 		//good stuff
-		for(int i = 0; i < names.length; i++) {
-			System.out.format("Hello, %s!\n", names[i]);
+		for(String name : names) {
+			System.out.format("Hello, %s!\n", names  );
+			System.out.println("how are you doing today");
 			
 		}
 
