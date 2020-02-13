@@ -9,7 +9,7 @@ public class HelloGit {
 		//goood stuff
 		for(int i = 0; i < names.length; i++) {
 			System.out.format("Hello, %s!\n", names[i]);
-			
+			//i was 1 minute into the video
 		}
 
 	}
